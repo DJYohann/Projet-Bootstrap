@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+    <head>
+        <title> Projet BOOTSTRAP </title>
+        <!-- FAVICON -->
+        <link rel="icon" type="image/png" href="Images/favicon_arduino.png">
+        <!-- METAS -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- BOOTSTRAP CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <!-- JS -->
+        <script type="text/javascript" src="scroll-animate.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".navbar" data-offset="60">
+
+      <!-- NAVBAR -->
+      <div class="container">
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+          <a class="navbar-brand" href="#"> ARDUINO </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav mr-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#presentation"> Pr&eacute;sentation </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#cartes"> Cartes </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#dev"> D&eacute;veloppement </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#store"> Store </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reseaux"> R&eacute;seaux </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"> Contact </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- PRESENTATION -->
+      <section id="presentation" class="container-fluid">
+        <h2 class="blue"> PR&Eacute;SENTATION </h2>
+        <h3 class="blue"> Qui sommes nous ? </h3>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <img src="Images/favicon_arduino.png" alt="">
+            </div>
+            <div class="col-sm">
+              <p class="blue"> Depuis 2005 nous fabriquons des cartes &eacute;l&eacute;ctroniques à bas prix qui permettent - m&ecirc;me aux novices - de créer de multiples projets.  </p>
+              <p class="blue"> Nous avons r&eacute;volutionn&eacute; le monde du DIY (Do It Yourself) et avec notre politique de licence libre vous avez accés aux schémas éléctroniques ou aux codes sources.  </p>
+              <p class="blue"> Vous pouvez r&eacute;aliser pleins de projets comme afficher la temp&eacute;rature, piloter un robot, etc. </p>
+              <p class="blue"> Nous sommes aussi beaucoup pr&eacute;sent dans l'&eacute;ducation pour enseigner les bases de l'&eacute;l&eacute;ctronique et de la programmation. </p>
+            </div>
+          </div>
+        </div>
+        <button class="btn btn-secondary" type="button" data-toggle="collapse" data-target="#petiteAnecdote" aria-expanded="false" aria-controls="multiCollapseExample2"> Petite anecdote </button>
+        <div class="col">
+         <div class="collapse multi-collapse" id="petiteAnecdote">
+           <div class="card card-body blue"> Arduino tient son nom d'un petit bar en Italie - Bar di Re Arduino </div>
+         </div>
+       </div>
+      </section>
+
+      <!-- CARTES -->
+      <section id="cartes">
+        <hr class="white-divider">
+        <h2 class="white"> CARTES </h2>
+        <h3 class="white"> Coup de &#x2764; </h3>
+        <div class="container mx-auto">
+          <div id="carousel-cartes" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-cartes" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-cartes" data-slide-to="1"></li>
+              <li data-target="#carousel-cartes" data-slide-to="2"></li>
+              <li data-target="#carousel-cartes" data-slide-to="3"></li>
+              <li data-target="#carousel-cartes" data-slide-to="4"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-interval="5000">
+                <img src="Images/Arduinos/arduino_uno.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="white"> Arduino UNO Rev3 </h3>
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="5000">
+                <img src="Images/Arduinos/arduino_leonardo.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="white"> Arduino LEONARDO  </h3>
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="5000">
+                <img src="Images/Arduinos/arduino_mega.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="blue"> Arduino MEGA </h3>
+                </div>
+              </div>
+              <div class="carousel-item" data-interval="5000">
+                <img src="Images/Arduinos/arduino_due.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="blue"> Arduino DUE </h3>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="Images/Arduinos/arduino_micro.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h3 class="blue"> Arduino NANO </h3>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carousel-cartes" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only"> Previous </span>
+            </a>
+            <a class="carousel-control-next" href="#carousel-cartes" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only"> Next </span>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- DÉVELOPPEMENT -->
+      <section id="dev" class="container-fluid">
+        <hr class="blue-divider">
+        <h2 class="blue"> D&Eacute;VELOPPEMENT </h2>
+        <h3 class="blue"> Arduino IDE </h3>
+        <div class="row">
+          <div class="col-sm">
+            <img src="Images/Developpement/ide.png" alt="">
+          </div>
+          <div id="texte" class="col-sm">
+            <h4 class="blue"> IDE standard </h4>
+            <p class="blue"> Un environnement simple d'utilisation avec un langage m&eacute;langeant le C et C++. </p>
+            <p class="blue"> De nombreux exemples et biblioth&egrave;ques disponibles pour &eacute;tendre vos possibilit&eacute;s de cr&eacute;ation. </p>
+            <p class="blue"> Un simple clic et votre code est envoy&eacute; au micr&ocirc;controlleur de votre carte. </p>
+          </div>
+        </div>
+        <div class="row">
+          <div id="texte" class="col-sm">
+            <h4 class="blue"> IDE Pro (version alpha)</h4>
+            <p class="blue"> Dual mode - Classic mode - Pro mode </p>
+            <p class="blue"> Th&egrave;me sombre </p>
+            <p class="blue"> Autocompl&eacute;tion </p>
+            <p class="blue"> Int&eacute;gration Git </p>
+            <p class="blue"> Support pour d'autres langages </p>
+          </div>
+          <div class="col-sm">
+            <img src="Images/Developpement/idepro.png" alt="">
+          </div>
+        </div>
+      </section>
+
+      <!-- STORE -->
+      <section id="store" class="container-fluid">
+        <hr class="white-divider">
+        <h2 class="white"> STORE </h2>
+        <h3 class="white"> Vous voulez acheter une cartes ? </h3>
+        <a href="https://store.arduino.cc/" target="_blank"> <button type="button" class="btn btn-lg btn-secondary"> Acheter une carte </button> </a>
+      </section>
+
+      <!-- RESEAUX -->
+      <section id="reseaux" class="container-fluid">
+        <hr class="blue-divider">
+        <h2 class="blue"> R&Eacute;SEAUX </h2>
+        <h3 class="blue"> Venez d&eacute;couvrir les nouveaut&eacute;s</h3>
+          <div class="row">
+            <div class="col-sm-2">
+              <a class="thumbnail" href="https://twitter.com/arduino" target="_blank">
+                <img src="Images/Reseaux/twitter.png" alt="Twitter">
+              </a>
+            </div>
+            <div class="col-sm-2">
+              <a class="thumbnail" href="https://www.facebook.com/official.arduino" target="_blank">
+                <img src="Images/Reseaux/facebook.png" alt="Facebook">
+              </a>
+            </div>
+            <div class="col-sm-2">
+              <a class="thumbnail" href="https://www.instagram.com/arduino.cc/" target="_blank">
+                <img src="Images/Reseaux/instagram.png" alt="Instagram">
+              </a>
+            </div>
+            <div class="col-sm-2">
+              <a class="thumbnail" href="https://www.youtube.com/user/arduinoteam" target="_blank">
+                <img src="Images/Reseaux/youtube.png" alt="Youtube">
+              </a>
+            </div>
+            <div class="col-sm-2">
+              <a class="thumbnail" href="https://github.com/arduino/" target="_blank">
+                <img src="Images/Reseaux/github.png" alt="GitHub">
+              </a>
+            </div>
+          </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="container-fluid">
+        <hr class="white-divider">
+        <h2 class="white"> CONTACT </h2>
+        <h3 class="white"> Votre avis nous int&eacute;resse </h3>
+        <form>
+          <div class="form-group">
+            <label for="prenom"> Pr&eacute;nom </label>
+            <input type="text" class="form-control" id="prenom" placeholder="Entrez votre prénom">
+          </div>
+          <div class="form-group">
+            <label for="nom"> Nom </label>
+            <input type="text" class="form-control" id="nom" placeholder="Entrez votre nom">
+          </div>
+          <div class="form-group">
+            <label for="mail"> E-mail </label>
+            <input type="mail" class="form-control" id="mail" placeholder="Entrez votre mail">
+          </div>
+          <div class="form-group">
+            <label for="comment"> Commentaire </label>
+            <textarea class="form-control" id="comment" rows="3" placeholder="Entrez un commentaire"></textarea>
+          </div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="premVisite">
+              <label class="form-check-label" for="premVisite"> Première visite ? </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-secondary">Sign in</button>
+        </form>
+      </section>
+
+      <!-- FOOTER -->
+      <footer>
+        <div class="container-fluid">
+            <h5 class="blue"> © 2019 ARDUINO.COM PAR MAXIME ET YOHANN </h5>
+        </div>
+      </footer>
+
+      <!-- BOOTSTRAP JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
