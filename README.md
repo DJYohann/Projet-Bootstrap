@@ -14,3 +14,8 @@ Il s'agit d'un site vitrine pour présenter la marque de carte électronique [Ar
 * [Scrollspy](https://getbootstrap.com/docs/4.3/components/scrollspy/)
 * [Navbar](https://getbootstrap.com/docs/4.3/components/navbar/)
 * [Carousel](https://getbootstrap.com/docs/4.3/components/carousel/)
+
+## Auteurs
+
+* [Maxime DESGRANGES](https://github.com/Rogha-Max)
+* [Yohann BREUIL](https://github.com/DJYohann)
